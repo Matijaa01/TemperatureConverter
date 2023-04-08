@@ -79,7 +79,6 @@ public class TempConverter {
 		graphics2DLeft.drawImage(cLeft, 0, 0, 400, 400, null);
 		ImageIcon imgLeft = new ImageIcon(resizedImageLeft);
 		graphics2DLeft.dispose();
-		/*Image imgLeft = new ImageIcon(this.getClass().getResource("/img400x400.png")).getImage();*/
 		lblimgLeft.setIcon(imgLeft);
 		lblimgLeft.setBounds(0, 0, 400, 400);
 		panel.add(lblimgLeft);
@@ -104,7 +103,6 @@ public class TempConverter {
 		graphics2DExit.drawImage(cExit, 0, 0, 50, 50, null);
 		ImageIcon imgExit = new ImageIcon(resizedImageExit);
 		graphics2DExit.dispose();
-		/*Image imgExit = new ImageIcon(this.getClass().getResource("/button_exit.png")).getImage();*/
 		JButton btnExit = new JButton("");
 		btnExit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
